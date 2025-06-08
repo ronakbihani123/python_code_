@@ -217,3 +217,15 @@ for i in range(2,n+1):
   a = b
   b = next
   print(b , end = " ")
+
+#q 22
+value = "01101110"
+a = '0'
+b = '1'
+flipped = ""
+for  i in value:
+  if i == a:
+    flipped += b
+  else:
+    flipped += a
+print (int(flipped))    
